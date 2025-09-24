@@ -100,3 +100,26 @@
 .caret-icon {
   font-size: 0.6rem;
 }
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.signin-fir {
+  font-size: 12px;
+}
+
+.signin-sec {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.return-fir {
+  font-size: 12px;
+}
+
+.return-sec {
+  font-size: 14px;
+  font-weight: bold;
+}

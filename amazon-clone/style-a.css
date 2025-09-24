@@ -123,3 +123,18 @@
   font-size: 14px;
   font-weight: bold;
 }
+
+.nav-cart {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.nav-cart i {
+
+  font-size: 40px;
+}
+
+.cart-text {
+  font-weight: 400;
+}

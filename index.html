@@ -3,11 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My Projects</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: transform 0.2s ease, background 0.2s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      background: #9b5de5;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      display: inline-block;
+      transition: background 0.2s;
+    }
+
+    .card a:hover {
+      background: #6a11cb;
+    }
+  </style>
 </head>
 <body>
-  <h1>HELLOO</h1>
-  <a href="amazon-clone/index-a.html" target="_blank">View Project</a>
-  <a href="https://pdf-to-audiobook-converter-g13w.onrender.com/" target="_blank">View Project</a>
+  <h1>🚀 My Projects</h1>
+
+  <div class="projects">
+    <div class="card">
+      <h2>Amazon UI Clone</h2>
+      <a href="amazon-clone/index.html" target="_blank">View Project</a>
+    </div>
+
+    <div class="card">
+      <h2>YouTube UI Clone</h2>
+      <a href="youtube-clone/index.html" target="_blank">View Project</a>
+    </div>
+
+    <!-- Add more project cards here -->
+  </div>
 </body>
 </html>

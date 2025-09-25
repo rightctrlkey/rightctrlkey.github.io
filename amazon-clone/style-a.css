@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  height: 65px;
+  height: 60px;
   background-color: #0F1111;
   color: white;
   display: flex;
@@ -137,4 +137,33 @@
 
 .cart-text {
   font-weight: 400;
+}
+
+.panel {
+  height: 40px;
+  background-color: #232f3e;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-left {
+  display: flex;
+  margin-left: 12px;
+  font-weight: 700;
+}
+
+.panel-left i {
+  font-size: 1.2rem;
+}
+
+.panel-mid p {
+  display: inline;
+  margin-left: 13px;
+  font-size: 14px;
+}
+
+.panel-mid {
+  width: 95%;
 }

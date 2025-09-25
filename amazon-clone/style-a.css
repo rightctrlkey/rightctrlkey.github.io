@@ -167,3 +167,39 @@
 .panel-mid {
   width: 95%;
 }
+
+.hero-section {
+  background-image: url("hero_image.jpg");
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 97%;
+  margin-bottom: 25px;
+}
+
+.hero-msg a {
+  color: #007185;
+}
+
+.box {
+  border: 3px solid black;
+  height: 400px;
+  width: 23%;
+}
+
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+}
